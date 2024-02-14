@@ -8,9 +8,3 @@ curso.map((el)=>{
         el.classList.add("destaque")
     })
 })
-
-// c1.addEventListener('click',(evt)=>{
-//     const el = evt.target
-//     el.classList.add("destaque")
-// })
-
