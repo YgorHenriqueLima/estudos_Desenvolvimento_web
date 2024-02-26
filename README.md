@@ -1,11 +1,10 @@
-# estudos_HTML-CSS
+# Estudos de Desenvolvimento Web
 
-Bem-vindo a esta seção do meu repositório, onde compartilho meus exercícios de HTML e CSS, demonstrando visualmente todos os conceitos que aprendi, fixando os meus conhecimentos
+Bem-vindo a esta seção do meu repositório, onde compartilho meus exercícios de HTML, CSS e JavaScript, demonstrando visualmente todos os conceitos que aprendi, fixando os meus conhecimentos
 
-conhecimentos obtidos através do canal Curso em Vídeo do professor Gustavo Guanabara no Youtube
 
 <h1 style="color: rgba(149, 117, 60, 0.681);">📁 PROJETOS CRIADOS</h1>
-<a href="https://ygorhenriquelima.github.io/estudos_HTML-CSS/projetos/Projeto_android/index.html"> -> Projeto Android</a><br>
+<a href="https://ygorhenriquelima.github.io/Es/projetos/Projeto_android/index.html"> -> Projeto Android</a><br>
 <a href="https://ygorhenriquelima.github.io/estudos_HTML-CSS/projetos/projeto_cordel/index.html"> -> Projeto Cordel</a><br>
 <a href="https://ygorhenriquelima.github.io/estudos_HTML-CSS/projetos/Projeto_Login/index.html"> -> Projeto Login</a><br>
 <a href="https://ygorhenriquelima.github.io/estudos_HTML-CSS/projetos/Projeto_redes_sociais/index.html"> -> Projeto Redes sociais</a><br>

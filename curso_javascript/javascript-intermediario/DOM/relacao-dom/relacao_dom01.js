@@ -1,13 +1,11 @@
 const caixa1 = document.querySelector("#caixa1")
 const btn_c = [...document.querySelectorAll(".curso")]
-// console.log(caixa1.children.length)
-// console.log(caixa1.firstElementChild)
+const c1_2 = document.querySelector("#c1_2")
+
+
 // console.log(caixa1.lastElementChild)
 // console.log(caixa1.children)
-console.log(caixa1.hasChildNodes())
+// console.log(caixa1.firstElementChild.innerHTML = "texto")
 
-if(caixa1.children.caixa1 > 0){
-    console.log('possui filhos')
-}else {
-    console.log('não possui filhos')
-}
+console.log(c1_2.parentElement)
+console.log(c1_2.parentNode)
