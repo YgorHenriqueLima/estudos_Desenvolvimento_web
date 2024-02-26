@@ -3,7 +3,7 @@
 /*aparelhos em pé (portrait) */
 
 body {
-   background: url(../imagens/cev-portrait.jpg);
+   background: url('../imagens/cev-portrait.jpg');
    background-position: bottom center;
    background-repeat: no-repeat;
 }

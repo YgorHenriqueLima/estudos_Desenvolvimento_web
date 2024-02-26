@@ -1,11 +1,4 @@
 const idades = [15,21,30,17,28,44,12,50]
-const nomes = ['joao','gabriel','maria', 'Joana', 'Patricia', 'Oswald', 'guilherme', 'gilberto']
-
-const pessoas = {}
-nomes.forEach((nome, index)=>{
-    pessoas[nome] = idades[index];
-})
-console.log(pessoas)
 
 const maior = idades.filter((valor)=>{
     if (valor > 18){
