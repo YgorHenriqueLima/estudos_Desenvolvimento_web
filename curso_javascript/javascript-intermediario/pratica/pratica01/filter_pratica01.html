@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+
+    * {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        padding: 0px;
+        margin: 0px;
+        box-sizing: border-box;
+    }
+
+    body, html {
+      background-image: linear-gradient(to right, rgb(0, 221, 255), rgba(18, 136, 166, 0.707),rgb(22, 122, 159));
+      height: 100vh;
+      width: 100vw;
+    }
+
+    .meu-botao {
+        display: inline-block;
+        padding: 10px 20px;
+        font-size: 16px;
+        border: none;
+        cursor: pointer;
+        background-color: aqua;
+        color: #fff;
+        border-radius: 5px;
+        transition: 0.3s ease;
+    }
+
+    .meu-botao:hover {
+       background-color: #095776;
+    }
+
+    main {
+      position: relative;
+      height: 100vh;
+      width: 100vw;
+
+    }
+
+    section#formulario {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      overflow: hidden;
+      transition: width 1.0s, height 1.0s;
+      transition-timing-function: ease;
+
+      background-color: white;
+      width: 500px;
+      height: 300px;
+      border-radius: 20px;
+      box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.455); 
+      transform: translate(-50%, -50%);
+    }
+
+    section#formulario > div#box-form {
+      padding: 20px;
+      display: block;
+    }
+
+    form > input[type=number]{
+      background-color: rgba(64, 176, 171, 0.404);
+      font-size: 1em;
+      border: none;
+      border-radius: 8px;
+      padding: 6px;
+      margin-bottom: 10px;
+    }
+
+    .custom-list {
+      list-style: none;
+      padding: 0px;
+    }
+
+    .custom-list li {
+      padding-left: 30px;
+      position: relative;
+      margin-bottom: 10px;
+    }
+
+    .custom-list li::before {
+      content: "\2022";
+      color: #3498db; 
+      font-size: 20px; 
+      position: absolute;
+      left: 0;
+      top: 50%;
+      transform: translateY(-50%);
+      margin-right: 10px;
+    }
+
+  </style>
+  <title>Formulário de Idades</title>
+</head>
+<body>
+
+  
+  <main>
+      <section id="formulario">
+          <h1>Formulário de Idades</h1>
+        
+          <div id="box-form">
+            
+            <form id="formularioIdades">
+                  <div id="imagem">
+
+                  </div>
+                  <label for="idade">Digite a idade:</label>
+                  <input type="number" id="idade" required>
+                  <button type="button" onclick="adicionarIdade()" class="meu-botao">Adicionar Idade</button>
+                  <h2>Idades</h2>
+                  <ul id="listaIdades" class="custom-list">
+                    <!-- Idades serão exibidas aqui -->
+                  </ul>
+                  <button type="button" onclick="filtrarIdades()" class="meu-botao">Filtrar idades</button>
+              </form>
+          </div>
+
+      </section>
+  </main>
+
+  <script src="filter_pratica01.js"></script>
+</body>
+</html>
