@@ -86,3 +86,7 @@ button {
     margin: 10px;
     padding: 5px;
 }
+
+#btnAdicionarNovoCursoAntes{
+    margin-bottom: 10px;
+}

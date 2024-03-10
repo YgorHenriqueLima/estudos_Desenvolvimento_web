@@ -5,14 +5,16 @@ const cursos = ["HTML", "CSS", "JavaScript", "PHP", "React", "MySQL", "ReactNati
 const btnCursoSelecionado = document.getElementById("btnCursoSelecionado")
 const btnRemoverCurso = document.getElementById("btnRemoverCurso") 
 
-// adicionando os cursos que estão na array
-cursos.map((el, chave)=>{
+const btnAdicionarNovoCursoAntes = document.getElementById("btnAdicionarNovoCursoAntes")
+const btnAdicionarNovoCursoSDepois = document.getElementById("btnAdicionarNovoCursoDepois")
+let nomeCurso = document.getElementById("nomeCurso")
 
+let indice = 0
+const criarNovoCurso=(curso)=>{
     const novoElemento = document.createElement("div")
-
-    novoElemento.setAttribute("id", "c"+chave)
+    novoElemento.setAttribute("id", "c"+indice)
     novoElemento.setAttribute("class", "curso c1")
-    novoElemento.innerHTML = el
+    novoElemento.innerHTML = curso
 
     const comandos = document.createElement("div")
     comandos.setAttribute("class", "comandos")
@@ -23,7 +25,15 @@ cursos.map((el, chave)=>{
 
     comandos.appendChild(rb)
     novoElemento.appendChild(comandos)
-    caixaCursos.appendChild(novoElemento)
+    return novoElemento
+}
+
+// adicionando os cursos que estão na array
+cursos.map((el)=>{
+   const novoCurso = criarNovoCurso(el)
+   caixaCursos.appendChild(novoCurso)
+   indice++
+
 })
 
 const radioSelecionado=()=>{
@@ -36,9 +46,12 @@ const radioSelecionado=()=>{
 
 btnCursoSelecionado.addEventListener("click",(evt)=>{
     const rs = radioSelecionado()
-    const cursoSelecionado = rs.parentNode.previousSibling.textContent
-    alert("curso selecionado: " + cursoSelecionado)
-
+    try {
+        const cursoSelecionado = rs.parentNode.previousSibling.textContent
+        alert("curso selecionado: " + cursoSelecionado)
+    }catch(error){
+        alert("selecione o curso")
+    }
 })
 
 btnRemoverCurso.addEventListener("click",(evt)=>{
@@ -48,5 +61,27 @@ btnRemoverCurso.addEventListener("click",(evt)=>{
         cursoSelecionado.remove()
     } catch(error) {
         alert("selecione um curso")
+    }
+})
+
+btnAdicionarNovoCursoAntes.addEventListener("click", (evt)=>{
+    const rs = radioSelecionado()
+    try {
+        const cursoSelecionado = rs.parentNode.parentNode
+        const novoCurso = criarNovoCurso(nomeCurso.value)
+        caixaCursos.insertBefore(novoCurso, cursoSelecionado)
+    }catch(error){
+        alert("selecione o curso")
+    }
+})
+
+btnAdicionarNovoCursoSDepois.addEventListener("click", (evt)=>{
+    const rs = radioSelecionado()
+    try {
+        const cursoSelecionado = rs.parentNode.parentNode
+        const novoCurso = criarNovoCurso(nomeCurso.value)
+        caixaCursos.insertBefore(novoCurso, cursoSelecionado.nextSibling)
+    }catch(error){
+        alert("selecione o curso")
     }
 })
