@@ -60,5 +60,5 @@ let c1 = new Carro("modelo esportivo", 1)
 let c2 = new Carro("Ford KA", 2)
 let c3 = new Carro("fiat UNO", 3)
 let c4 = new Carro("bombadão", 4)
-
+c3.setTipo()
 console.log(c1.getInfo())
