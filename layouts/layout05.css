@@ -1,0 +1,63 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    /*box-sizing não precisa colocar, pois a div já se comporta como um box-sizing*/
+}
+.container{
+    display: grid;
+    height: 100vh;
+    /*grid-template de coluna*/
+    /*utilizando 4 medidas para cada colunas*/
+    grid-template-columns:0.7fr 1.1fr 1.1fr 1.1fr;
+    /*utilizando 4 medidas para cada linha*/
+    grid-template-rows: 0.5fr 2fr 1.2fr 0.3fr;
+    /*grid templates areas vai dividir as áreas do layout, o nav ele vai neste caso, ocupar todas as 4 células*/
+    grid-template-areas: "nav nav nav nav"
+                        "sidebar main main main"
+                        "sidebar conteudo1 conteudo2 conteudo3"
+                        "sidebar footer footer footer";
+     /*grid-gap é uma distância entre cada célula*/
+    grid-gap: 0.5em;
+    font-size: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-weight: 600;
+    
+}
+
+#nav{
+    background-color: lightblue;
+    grid-area: nav;
+    border-radius: 0.7px;
+}
+
+#main{
+    background-color: lightgray;
+    grid-area: main;
+    border-radius: 0.7px;
+}
+#sidebar{
+    background-color: azure;
+    grid-area: sidebar;
+    border-radius: 0.7px;
+}
+#conteudo1{
+    background-color: rgb(59, 52, 52);
+    grid-area: conteudo1;
+    border-radius: 0.7px;
+}
+#conteudo2{
+    background-color: rgb(59, 52, 52);
+    grid-area: conteudo2;
+    border-radius: 0.7px;
+}
+#conteudo3{
+    background-color: rgb(59, 52, 52);
+    grid-area: conteudo3;
+    border-radius: 0.7px;
+}
+#footer{
+    background-color: beige;
+    grid-area: footer;
+    border-radius: 0.7px;
+}
