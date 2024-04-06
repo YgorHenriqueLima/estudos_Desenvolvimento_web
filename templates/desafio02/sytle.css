@@ -73,7 +73,7 @@ p#colortext {
 }
 
 .box-imagem {
-    background-image: url('../imagens/coffee-imagem.jpg'); 
+    background-image: url('./img/coffee-imagem.jpg'); 
     background-size: cover; 
     background-position: center right;
 
