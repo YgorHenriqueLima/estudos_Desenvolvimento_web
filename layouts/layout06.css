@@ -65,3 +65,7 @@ p{
     border-radius: 5px;
     padding: 8px 25px;
 }
+
+btn:hover {
+    background-color:lightgray;
+}
