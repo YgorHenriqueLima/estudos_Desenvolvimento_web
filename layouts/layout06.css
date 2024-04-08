@@ -43,3 +43,25 @@ img {
     padding: 30px 30px;
     margin: 30px;
 }
+
+h3 {
+    color: #444;
+    font-size: 22px;
+    padding: 10px 0px;
+}
+
+p{
+    color: #777;
+    font-size: 15px;
+    line-height: 1.8;
+}
+
+.btn {
+    margin-top: 10px;
+    display: inline-block;
+    background-color: rgb(53, 54, 153);
+    color: white;
+    font-size: 17px;
+    border-radius: 5px;
+    padding: 8px 25px;
+}
