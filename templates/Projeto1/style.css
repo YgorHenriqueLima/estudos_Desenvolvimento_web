@@ -109,5 +109,32 @@ fieldset:last-child{
 #check input{
     width: 25px;
     height: 25px;
-    
+    margin: auto 0;
+}
+#check label {
+    margin:auto 10px;
+    color: gray;
+    transition: 0.5s;
+}
+#check input:checked ~ label,
+#check input:valid ~ label{
+    color: #00acd7;
+    font-weight: 600;
+}
+button{
+    margin: 40px;
+    margin-left: 10px;
+    height: 70px;
+    width: calc(50% - 10px);
+    background-color: #1484a0;
+    color: #fff;
+    font-size: 20px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 1s linear;
+}
+button:hover{
+    background-color: rgb(89, 196, 232);
+    color: black;
 }
