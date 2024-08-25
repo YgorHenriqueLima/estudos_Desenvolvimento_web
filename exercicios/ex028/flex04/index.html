@@ -6,15 +6,18 @@
     <title>Flexibel Box</title>
     <style>
         div.container{
-            background-color: lightsalmon;
+            background-color: lightsalmon;            
             display: flex;
-            flex-direction: column;
+            height: 500px;
+            flex-flow: row nowrap;
+            justify-content: center;
+            align-items: center;
         }
         div.item{
             background-color: lightskyblue;
             border: 1px solid black;
             text-align: center;
-            flex: auto;
+            padding: 10px;
         }
     </style>
 </head>
