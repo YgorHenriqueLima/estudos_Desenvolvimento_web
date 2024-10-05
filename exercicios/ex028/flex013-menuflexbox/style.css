@@ -15,11 +15,9 @@ body {
 }
 
 header {
-    background-image: linear-gradient(to bottom, rgb(94, 91, 91), rgba(128, 128, 128, 0.612));
+    background-image: linear-gradient(to bottom, rgba(94, 91, 91, 0.639), rgba(128, 128, 128, 0.394));
     color: white;
     padding: 10px;
-    border-bottom-right-radius: 5px;
-    border-bottom-left-radius: 5px;
 
     display: flex;
     flex-flow: row wrap;
@@ -28,11 +26,10 @@ header {
 }
 
 header > h1 {
-    border: 1px black;
     flex: 0 0 200px;
+    text-shadow: 2px 2px 0px rgba(0,0,0,0.404);
 }
 header > nav {
-    border: 1px dotted black;
     display: flex;
     flex-flow: row wrap;
     justify-content: flex-end;
@@ -65,11 +62,6 @@ main {
 }
 main > .titulo {
     color: cadetblue;
-    padding: 5px;
+    padding: 2px;
     margin: 5px;
-}
-main > p {
-    line-height: 1.5em;
-    text-indent: 1.5em;
-    text-align: justify;
 }
