@@ -5,49 +5,114 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <style>
-        body {
-            color: dimgrey;
-            background-color:azure;
+        * {
+            padding: 0px;
+            margin: 0px;
+            box-sizing: border-box;
         }
+        body {
+            display: flex;
+            flex-direction: column;
+            color: dimgrey;
+            background-image: url('imagem-bolo.jpg');
+            background-position: center center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-clip: border-box;
+            height: 100vh;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        header {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            background-color: #DB7A37;
+        }
+        header > a {
+            color: purple;
+            text-align: center;
+            cursor: pointer;
+            font-size: 2em;
+            font-weight: bold;
+        }
+        ul#menu {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            list-style-type: none;
+            background-color: #DBAB37;
+        }
+        ul#menu > li {
+            background-color: #DBB580;
+            border-radius: 10px;
+            width: 150px;
+            font-size: 20px;
+            text-align: center;
+            color: white;
+            padding: 10px;
+            margin: 5px;
+        }
+        main {
+            display: flex;
+            flex-direction: column;
+            margin: auto;
+            padding: 20px;
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            max-width: 600px;
+            height: 100%;
+        }
+        main h1 {
+            text-align: center;
+            color: #DB5D37;
+        }
+        main h2 {
+            margin-top: 20px;
+            color: #DB7A37;
+        }
+        main ul, main ol {
+            margin-top: 10px;
+            padding-left: 20px;
+        }
+
     </style>
     <title>Listas</title>
 </head>
 <body>
-    <h1>Tabalhando com listas</h1>
-    <h2>listas ordenadas</h2>
-    <h3>dicas para dormir bem</h3>
-    <ol type="1"> <!-- 1 A a I i-->
-        <li>Respeitar o horário de ir dormir</li>
-        <li>não use nenhuma luz antes de dormir, seja a luz do celular, notebook, tv</li>
-        <li>antes de dormir leia um livro invés do celular</li>
-        <li>Criar um ambiente escuro</li>
-        <li>Evitar tomar café 6h antes de dormir</li>
-        
-    </ol>
-    <h2>listas nao ordenadas</h2>
-    <ul type="circle"> <!--disc circle square-->
-        <li>pão</li>
-        <li>tomate</li>
-        <li>cebola</li>
-        <li>leite</li>
-        <li>manteiga</li>
-        <li>Arroz</li>
-        <li>feijão</li>
-    </ul>
-    <h2>minhas listas de linguagens/linguagens de programação preferidos</h2>
-    <ol>
-        <li>antigas</li>
-        <ol type="a">
-            <li>C++</li>
-            <li>Java</li>
-            <li>PHP</li>
+    <header>
+        <a>Receitas Online</a>
+        <menu>
+            <ul id="menu">
+                <li>Home</li>
+                <li>Cardápios</li>
+                <li>Blog</li>
+                <li>Dieta</li>
+            </ul>
+        </menu>
+    </header>
+
+    <main>
+        <h1><strong>Receita de Bolo de Cenoura</strong></h1>
+        <h2>Ingredientes</h2>
+        <ul>
+            <li>3 cenouras médias</li>
+            <li>3 ovos</li>
+            <li>2 xícaras de açúcar</li>
+            <li>1 xícara de óleo de canola</li>
+            <li>2 xícaras de farinha de trigo</li>
+            <li>1 pitada de sal</li>
+            <li>1 colher de sopa de fermento químico</li>
+        </ul>
+        <h2>Modo de Preparo</h2>
+        <ol>
+            <li>No liquidificador, coloque 3 cenouras médias, 3 ovos, 1 xícara de óleo de canola e 2 xícaras de açúcar. Bata até ficar homogêneo.</li>
+            <li>Em uma tigela, coloque 2 xícaras de farinha de trigo, 1 pitada de sal e 1 colher de sopa de fermento químico. Misture.</li>
+            <li>Adicione a mistura do liquidificador na tigela.</li>
+            <li>Com um fouet, misture até ficar homogêneo.</li>
+            <li>Transfira a massa para uma forma untada e enfarinhada.</li>
+            <li>Leve para assar em forno preaquecido a 180 graus Celsius por 40 minutos.</li>
         </ol>
-        <li>novas</li>
-        <ol type="a">
-            <li>Python</li>
-            <li>HTML5 e CSS3</li>
-            <li>JavaScript</li>
-        </ol>
-    </ol>
+    </main>
 </body>
 </html>
