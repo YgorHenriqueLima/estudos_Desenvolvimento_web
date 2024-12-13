@@ -26,6 +26,6 @@
     <img src="https://via.placeholder.com/400x200.png?text=Projeto+Cordel" alt="Projeto Cordel" style="border-radius: 8px; margin: 10px;">
 </a>
 <p>Este projeto mostra um cordel de Milton Duarte que fala sobre temas contemporâneos da tecnologia</p>
-</div>
+
 
 </div>
