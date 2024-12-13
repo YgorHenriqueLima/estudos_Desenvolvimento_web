@@ -1,6 +1,7 @@
 <link rel="stylesheet" href="style-readme.css">
 
 <div id="conteudo">
+
 # 🌐 **Estudos HTML/CSS** 
 
 🎯 olá, seja bem vindo(a) ao meu repositório dos meus exercícios e projetos pessoais, explore os projetos criados e estudados durante meu aprendizado
@@ -30,4 +31,5 @@
 ---
 
 🚀 **Veja mais sobre meu aprendizado no repositório!**
+
 </div>
