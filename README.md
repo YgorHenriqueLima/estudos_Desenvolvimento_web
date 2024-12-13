@@ -1,6 +1,9 @@
 <link rel="stylesheet" href="style-readme.css">
 
-<div id="conteudo">
+<div style="background-color: white;
+    padding: 5px;
+    margin: auto;
+    border-radius: 10px;">
 
 # 🌐 **Estudos HTML/CSS** 
 
