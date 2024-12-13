@@ -1,6 +1,5 @@
 <link rel="stylesheet" href="style-readme.css">
-
-<div style="background-color: white;padding: 5px;margin: auto;border-radius: 10px;">
+<div style="background-color: white; padding:10px; margin: auto; border-radius: 10px;">
 
 <h1>🌐 Estudos HTML/CSS</h1>
 <p>
@@ -30,7 +29,7 @@
 
 <hr>
 
-<h2> Projeto Login </h2>
+<h2>👤 Projeto Login </h2>
 <div style="text-align:center;">
 <a href="https://ygorhenriquelima.github.io/estudos_Desenvolvimento_web/projetos/Projeto_Login/index.html" target="_blank">
     <img src="README-imgs/login.png" alt="Projeto Login" style="border-radius: 8px; margin: 10px;">
@@ -39,7 +38,7 @@
 
 <hr>
 
-<h2> Projeto Redes Sociais </h2>
+<h2>ⓕ Projeto Redes Sociais </h2>
 <div style="text-align:center;">
 <a href="https://ygorhenriquelima.github.io/estudos_Desenvolvimento_web/projetos/Projeto_redes_sociais/index.html" target="_blank">
     <img src="README-imgs/redes-sociais.jpeg" alt="Projeto redes sociais" style="border-radius: 8px; margin: 10px;">
