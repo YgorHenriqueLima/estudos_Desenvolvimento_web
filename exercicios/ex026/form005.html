@@ -9,24 +9,35 @@
 </head>
 <body>
     <main>
-        <h1>exemplo de formulário</h1>
         <form action="" method="get" autocomplete="on">
             <fieldset>
-                <legend>sexo</legend>
-                <input type="radio" name="sexo" id="isxmas"> <label for="sexo">Masculino</label><br>
-                <input type="radio" name="sexo" id="isxfem"> <label for="sexo" checked>Feminino</label>
+                <legend>Sexo</legend>
+                <input type="radio" name="sx" id="sxmas">
+                <label for="sxmas">masculino</label>
+                <input type="radio" name="sx" id="sxfem" checked>
+                <label for="sxfem">Feminino</label>
             </fieldset>
             <fieldset>
-                <legend>Esportes Coletivos</legend>
-                <input type="checkbox" name="esfut" id="iesfut"> <label for="iesfut">Futebol</label><br>
-                <input type="checkbox" name="esbas" id="iesbas"> <label for="iesbas">Basquete</label> <br>
-                <input type="checkbox" name="esnat" id="iesnat"> <label for="iesnat">Natação</label> <br>
-                <input type="checkbox" name="esten" id="iesten"> <label for="iesten">Tênis</label> <br>
+                <legend>Esportes favoritos</legend>
+                
+                <input type="checkbox" name="esbas" id="iesbas" checked>
+                <label for="iesbas">Basquete</label> 
+
+                <br>
+
+                <input type="checkbox" name="esfut" id="iesfut" checked>
+                <label for="iesfut">Futebol</label>
+
+                <br>
+
+                <input type="checkbox" name="esnat" id="iesnat">
+                <label for="iesnat">Natação</label>
+                
+                <br>
+
+                <input type="checkbox" name="esten" id="iesten">
+                <label for="iesten">Tênis</label> 
             </fieldset>
-            <p>
-                <input type="submit" value="Enviar">
-                <input type="reset" value="Limpar">
-            </p>
         </form>
     </main>
 </body>
