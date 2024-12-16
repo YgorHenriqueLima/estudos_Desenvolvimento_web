@@ -3,30 +3,34 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style.css">
     <title>Exemplo de formulário</title>
 </head>
 <body>
-    <p>
-        <label for="iano">Em que ano você nasceu</label>
-        <input type="number" name="ano" id="iano" min="1920" max="2023" oninput="CalcIdade()">
-    </p>
-
-    <p>
-        <label for="iidade">Sua idade é: </label>
-        <output id="iidade">0</output>
-    </p>
-
-
-    <p>
-        <input type="submit" value="Enviar">
-        <input type="reset" value="Limpar">
-    </p>
+    <main>
+        <form action="">
+            <p>
+                <label for="iano">Em que ano você nasceu</label>
+                <input type="number" name="ano" id="iano" min="1920" max="2023" oninput="CalcIdade()">
+            </p>
+        
+            <p>
+                <label for="iidade">Sua idade é: </label>
+                <output id="iidade">0</output>
+            </p>
+        
+        
+            <p>
+                <input type="submit" value="Enviar">
+                <input type="reset" value="Limpar">
+            </p>
+        </form>
+    </main>
 
     <script>
         function CalcIdade(){
-            //aqui é uma váriavel do ano atual onde vai receber uma instância chamado Date onde vai pegar o ano atual
             let atual = new Date().getFullYear()
-            // aqui vai ter uma variável do id iidade que está dentro do HTML,vai receber o Número do ano atual menos o Número do ano que será digitado, no caso o id iano que vai ler os valores do input acima, e tudo isso  está dentro de uma função chamado CalcIdade() 
             iidade.innerHTML = Number(atual) - Number(iano.value)
         }       
     </script>
