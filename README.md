@@ -7,6 +7,8 @@
 </p>
 
 <hr>
+<h1>exercícios</h1>
+
 
 <h1> Projetos Estudados no Canal do Curso em Vídeo </h1>
 
