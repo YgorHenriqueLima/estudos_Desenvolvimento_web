@@ -4,66 +4,50 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <style>
-        body {
-            color: black;
-            background-image: linear-gradient(to right, #3a3a8592, #8080b0, #41e4f3, #3a3a9592);
-        }
-        mark {
-            color: red;
-        }
-        h1#titulo {
-            background-image: linear-gradient(to right, #3a3a9592, #0000ff, #16d3e4, #2936c794);
-            margin: auto;
-            padding: 20px;
-            
-        }
-        h2.subtitulo {
-            background-image: linear-gradient(to right, #0000ff92, #3a3a9592 );
-        }
-    </style>
     <title>tipos de semânticas e não semântica</title>
 </head>
 <body>
-    <hr>
-    <h1 id="titulo">principais formatações</h1>
-    <hr>
+    <main>
+        <hr>
+        <h1>principais formatações</h1>
+        <hr>
+
+        <p>exemplo de endereço: eu moro na <address>rua dos capixabas, 229 - Botafogo - RJ</address>
+
+        <h2 class="subtitulo">Negrito / destaque </h2>
+        <p>nesta frase temos um <b>termo em negrito</b> usando a tag B (não semantica)</p>
+        <p>Nesta frase temos um <strong>termo em destaque</strong> usando o tag strong</p><hr>
 
 
-    <p>exemplo de endereço: eu moro na <address>rua dos capixabas, 229 - Botafogo - RJ</address>
+        <h2 class="subtitulo">Italico / Ênfase</h2>
+        <p>nesta frase temos um <i> termo em itálico </i>usando a tag I (não semantico)</p>
+        <p>nesta frase, temos um <em>termo em Enfase</em> usando a tag EM (semantico)</p>
+        <p>podemos criar tambem <mark style="background-color: forestgreen;">um texto marcado</mark> usando a tag MARK<p>
+        <p>e no outro paragrafo temos <mark>outro texto marcado</mark></p>
+        <hr>
+        <h2 class="subtitulo"><small>texto pequeno</small></h2>
+        <h2>texto excluido</h2>
 
-    <h2 class="subtitulo">Negrito / destaque </h2>
-    <p>nesta frase temos um <b>termo em negrito</b> usando a tag B (não semantica)</p>
-    <p>Nesta frase temos um <strong>termo em destaque</strong> usando o tag strong</p><hr>
+        <p>podemos marcar um <del>texto como excluido</del> para indicar que ele deve ser lido, mas não considerado</p>
 
+        <h2 class="subtitulo">texto inserido</h2>
+        <p>podemos marcar <ins>um texto como inserido para dar ênfase e indicar que ele foi adicionado e que deve ser lido (semântico) </ins></p>
 
-    <h2 class="subtitulo">Italico / Ênfase</h2>
-    <p>nesta frase temos um <i> termo em itálico </i>usando a tag I (não semantico)</p>
-    <p>nesta frase, temos um <em>termo em Enfase</em> usando a tag EM (semantico)</p>
-    <p>podemos criar tambem <mark style="background-color: forestgreen;">um texto marcado</mark> usando a tag MARK<p>
-    <p>e no outro paragrafo temos <mark>outro texto marcado</mark></p>
-    <hr>
-    <h2 class="subtitulo"><small>texto pequeno</small></h2>
-    <h2>texto excluido</h2>
+        <p>existe tambem o <u>sublinhado</u> com a tag U (não semântico)</p>
 
-    <p>podemos marcar um <del>texto como excluido</del> para indicar que ele deve ser lido, mas não considerado</p>
+        <h2 class="subtitulo">texto sobrescrito</h2>
+        <p>para inserir formular e potência do tipo x<sup>20</sup>+3</p>
 
-    <h2 class="subtitulo">texto inserido</h2>
-    <p>podemos marcar <ins>um texto como inserido para dar ênfase e indicar que ele foi adicionado e que deve ser lido (semântico) </ins></p>
+        <h2 class="subtitulo">texto subscrito</h2>
 
-    <p>existe tambem o <u>sublinhado</u> com a tag U (não semântico)</p>
-
-    <h2 class="subtitulo">texto sobrescrito</h2>
-    <p>para inserir formular e potência do tipo x<sup>20</sup>+3</p>
-
-    <h2 class="subtitulo">texto subscrito</h2>
-
-    <p>para inserir formulas e potencia do tipo H<sub>2</sub>O</p>
-    <hr>
+        <p>para inserir formulas e potencia do tipo H<sub>2</sub>O</p>
+        <hr>
+        
+        <h2 class="subtitulo">citação</h2>
+        <p>
+            <blockquote cite="https://pt.wikipedia.org/wiki/HTML">HTML é uma linguagem de marcação utilizada na construção de páginas na Web. Documentos HTML podem ser interpretados por navegadores. A tecnologia é fruto da junção entre os padrões HyTime e SGML. HyTime é um padrão para a representação estruturada de hipermídia e conteúdo baseado em tempo.</blockquote>
+        </p>
+    </main>
     
-    <h2 class="subtitulo">citação</h2>
-    <p>
-        <blockquote cite="https://pt.wikipedia.org/wiki/HTML">HTML é uma linguagem de marcação utilizada na construção de páginas na Web. Documentos HTML podem ser interpretados por navegadores. A tecnologia é fruto da junção entre os padrões HyTime e SGML. HyTime é um padrão para a representação estruturada de hipermídia e conteúdo baseado em tempo.</blockquote>
-    </p>
 </body>
 </html>

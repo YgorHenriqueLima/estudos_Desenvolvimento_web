@@ -3,12 +3,17 @@
 
 <h1>🌐 Estudos HTML/CSS</h1>
 
-<a href="https://ygorhenriquelima.github.io/estudos_Desenvolvimento_web/exercicios/ex003/index.html"></a>
-<a href=""></a>
-<a href=""></a>
-<a href=""></a>
-<a href=""></a>
-<a href=""></a>
+<a href="https://ygorhenriquelima.github.io/estudos_Desenvolvimento_web/exercicios/ex003/index.html">Testando Imagens</a>
+
+<a href="https://ygorhenriquelima.github.io/estudos_Desenvolvimento_web/exercicios/ex004/index.html">Favicon</a>
+
+<a href="https://ygorhenriquelima.github.io/estudos_Desenvolvimento_web/exercicios/ex006/index.html">Hierarquia de títulos</a>
+
+<a href="https://ygorhenriquelima.github.io/estudos_Desenvolvimento_web/exercicios/ex008a/index.html">tipos de semânticas e não semântica</a>
+
+<a href="https://ygorhenriquelima.github.io/estudos_Desenvolvimento_web/exercicios/ex010/index.html">Link</a>
+
+<a href="https://ygorhenriquelima.github.io/estudos_Desenvolvimento_web/exercicios/ex011/index.html"></a>
 <a href=""></a>
 <a href=""></a>
 <a href=""></a>
