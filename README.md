@@ -27,7 +27,7 @@
 
 <a href="https://ygorhenriquelima.github.io/estudos_Desenvolvimento_web/exercicios/ex023/fundo001.html">Background image</a>
 
-<a href=""></a>
+<a href="https://ygorhenriquelima.github.io/estudos_Desenvolvimento_web/exercicios/ex024/tabela001.html">Tabelas</a>
 <a href=""></a>
 <a href=""></a>
 
