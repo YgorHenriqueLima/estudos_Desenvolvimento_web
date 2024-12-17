@@ -3,40 +3,46 @@
 
 <h1>🌐 Estudos HTML/CSS</h1>
 
-<a href="https://ygorhenriquelima.github.io/estudos_Desenvolvimento_web/exercicios/ex003/index.html">Testando Imagens</a>
-
-<a href="https://ygorhenriquelima.github.io/estudos_Desenvolvimento_web/exercicios/ex004/index.html">Favicon</a>
-
-<a href="https://ygorhenriquelima.github.io/estudos_Desenvolvimento_web/exercicios/ex006/index.html">Hierarquia de títulos</a>
-
-<a href="https://ygorhenriquelima.github.io/estudos_Desenvolvimento_web/exercicios/ex008a/index.html">tipos de semânticas e não semântica</a>
-
-<a href="https://ygorhenriquelima.github.io/estudos_Desenvolvimento_web/exercicios/ex010/index.html">Link</a>
-
-<a href="https://ygorhenriquelima.github.io/estudos_Desenvolvimento_web/exercicios/ex011/index.html">Imagens Dinâmicas</a>
-
-<a href="https://ygorhenriquelima.github.io/estudos_Desenvolvimento_web/exercicios/ex012/index.html">Vídeos</a>
-
-<a href="https://ygorhenriquelima.github.io/estudos_Desenvolvimento_web/exercicios/ex016/cor01.html">Cores</a>
-
-<a href="https://ygorhenriquelima.github.io/estudos_Desenvolvimento_web/exercicios/ex017/fonte01.html">Fontes</a>
-
-<a href="https://ygorhenriquelima.github.io/estudos_Desenvolvimento_web/exercicios/ex019/seletor01.html">Seletores</a>
-
-<a href="https://ygorhenriquelima.github.io/estudos_Desenvolvimento_web/exercicios/ex022/caixa01.html">Modelo de caixa</a>
-
-<a href="https://ygorhenriquelima.github.io/estudos_Desenvolvimento_web/exercicios/ex023/fundo001.html">Background image</a>
-
-<a href="https://ygorhenriquelima.github.io/estudos_Desenvolvimento_web/exercicios/ex024/tabela001.html">Tabelas</a>
-<a href=""></a>
-<a href=""></a>
-
 <p>
 🎯 olá, seja bem vindo(a) ao meu repositório dos meus exercícios e projetos pessoais, explore os projetos criados e estudados durante meu aprendizado
 </p>
 
 <hr>
+
 <h1>exercícios</h1>
+
+<a href="https://ygorhenriquelima.github.io/estudos_Desenvolvimento_web/exercicios/ex003/index.html">Testando Imagens</a>
+<br>
+<a href="https://ygorhenriquelima.github.io/estudos_Desenvolvimento_web/exercicios/ex004/index.html">Favicon</a>
+<br>
+<a href="https://ygorhenriquelima.github.io/estudos_Desenvolvimento_web/exercicios/ex006/index.html">Hierarquia de títulos</a>
+<br>
+<a href="https://ygorhenriquelima.github.io/estudos_Desenvolvimento_web/exercicios/ex008a/index.html">tipos de semânticas e não semântica</a>
+<br>
+<a href="https://ygorhenriquelima.github.io/estudos_Desenvolvimento_web/exercicios/ex010/index.html">Link</a>
+<br>
+<a href="https://ygorhenriquelima.github.io/estudos_Desenvolvimento_web/exercicios/ex011/index.html">Imagens Dinâmicas</a>
+<br>
+<a href="https://ygorhenriquelima.github.io/estudos_Desenvolvimento_web/exercicios/ex012/index.html">Vídeos</a>
+<br>
+<a href="https://ygorhenriquelima.github.io/estudos_Desenvolvimento_web/exercicios/ex016/cor01.html">Cores</a>
+<br>
+<a href="https://ygorhenriquelima.github.io/estudos_Desenvolvimento_web/exercicios/ex017/fonte01.html">Fontes</a>
+<br>
+<a href="https://ygorhenriquelima.github.io/estudos_Desenvolvimento_web/exercicios/ex019/seletor01.html">Seletores</a>
+<br>
+<a href="https://ygorhenriquelima.github.io/estudos_Desenvolvimento_web/exercicios/ex022/caixa01.html">Modelo de caixa</a>
+<br>
+<a href="https://ygorhenriquelima.github.io/estudos_Desenvolvimento_web/exercicios/ex023/fundo001.html">Background image</a>
+<br>
+<a href="https://ygorhenriquelima.github.io/estudos_Desenvolvimento_web/exercicios/ex024/tabela001.html">Tabelas</a>
+<br>
+<a href="https://ygorhenriquelima.github.io/estudos_Desenvolvimento_web/exercicios/ex025/iframe003.html">iframes</a>
+<br>
+<a href="https://ygorhenriquelima.github.io/estudos_Desenvolvimento_web/exercicios/ex026/form003.html">formulários</a>
+<br>
+<a href="https://ygorhenriquelima.github.io/estudos_Desenvolvimento_web/exercicios/ex027/mq005/index.html">Media queries e Mobile Firts</a>
+<p>
 
 
 <h1> Projetos Estudados no Canal do Curso em Vídeo </h1>
