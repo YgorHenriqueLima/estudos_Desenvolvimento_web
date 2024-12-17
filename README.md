@@ -17,11 +17,12 @@
 
 <a href="https://ygorhenriquelima.github.io/estudos_Desenvolvimento_web/exercicios/ex012/index.html">Vídeos</a>
 
-<a href="https://ygorhenriquelima.github.io/estudos_Desenvolvimento_web/exercicios/ex016/exemplos/index.html">Cores</a>
+<a href="https://ygorhenriquelima.github.io/estudos_Desenvolvimento_web/exercicios/ex016/cor01.html">Cores</a>
 
-<a href="">Fontes</a>
-<a href=""></a>
-<a href=""></a>
+<a href="https://ygorhenriquelima.github.io/estudos_Desenvolvimento_web/exercicios/ex017/fonte01.html">Fontes</a>
+
+<a href="https://ygorhenriquelima.github.io/estudos_Desenvolvimento_web/exercicios/ex019/seletor01.html">Seletores</a>
+<a href="https://ygorhenriquelima.github.io/estudos_Desenvolvimento_web/exercicios/ex022/caixa01.html">Modelo de caixa</a>
 <a href=""></a>
 <a href=""></a>
 <a href=""></a>
