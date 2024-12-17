@@ -13,10 +13,13 @@
 
 <a href="https://ygorhenriquelima.github.io/estudos_Desenvolvimento_web/exercicios/ex010/index.html">Link</a>
 
-<a href="https://ygorhenriquelima.github.io/estudos_Desenvolvimento_web/exercicios/ex011/index.html"></a>
-<a href=""></a>
-<a href=""></a>
-<a href=""></a>
+<a href="https://ygorhenriquelima.github.io/estudos_Desenvolvimento_web/exercicios/ex011/index.html">Imagens Dinâmicas</a>
+
+<a href="https://ygorhenriquelima.github.io/estudos_Desenvolvimento_web/exercicios/ex012/index.html">Vídeos</a>
+
+<a href="https://ygorhenriquelima.github.io/estudos_Desenvolvimento_web/exercicios/ex016/exemplos/index.html">Cores</a>
+
+<a href="">Fontes</a>
 <a href=""></a>
 <a href=""></a>
 <a href=""></a>
