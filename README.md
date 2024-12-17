@@ -22,8 +22,11 @@
 <a href="https://ygorhenriquelima.github.io/estudos_Desenvolvimento_web/exercicios/ex017/fonte01.html">Fontes</a>
 
 <a href="https://ygorhenriquelima.github.io/estudos_Desenvolvimento_web/exercicios/ex019/seletor01.html">Seletores</a>
+
 <a href="https://ygorhenriquelima.github.io/estudos_Desenvolvimento_web/exercicios/ex022/caixa01.html">Modelo de caixa</a>
-<a href=""></a>
+
+<a href="https://ygorhenriquelima.github.io/estudos_Desenvolvimento_web/exercicios/ex023/fundo001.html">Background image</a>
+
 <a href=""></a>
 <a href=""></a>
 <a href=""></a>
