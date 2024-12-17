@@ -2,6 +2,23 @@
 <div style="background-color: white; padding:10px; margin: auto; border-radius: 10px;">
 
 <h1>🌐 Estudos HTML/CSS</h1>
+
+<a href="https://ygorhenriquelima.github.io/estudos_Desenvolvimento_web/exercicios/ex003/index.html"></a>
+<a href=""></a>
+<a href=""></a>
+<a href=""></a>
+<a href=""></a>
+<a href=""></a>
+<a href=""></a>
+<a href=""></a>
+<a href=""></a>
+<a href=""></a>
+<a href=""></a>
+<a href=""></a>
+<a href=""></a>
+<a href=""></a>
+<a href=""></a>
+
 <p>
 🎯 olá, seja bem vindo(a) ao meu repositório dos meus exercícios e projetos pessoais, explore os projetos criados e estudados durante meu aprendizado
 </p>
