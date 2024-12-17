@@ -1,9 +1,8 @@
 @charset "UTF-8";
 
-/*aparelhos em pé (portrait) */
+/*modo retrato*/
 
 body {
-   background: url('../imagens/cev-portrait.jpg');
-   background-position: bottom center;
-   background-repeat: no-repeat;
+    background-image: url('../img/cev-portrait.jpg');
+    background-position: center bottom;
 }
