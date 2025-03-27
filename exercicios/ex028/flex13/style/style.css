@@ -30,9 +30,6 @@ section.flex-content{
     display: flex;
     flex-flow: column nowrap;
 }
-section > article{
-    border: 2px dotted green;
-}
 
 article.text-media{
     display: flex;
@@ -46,11 +43,9 @@ article.media-text{
 }
 
 article > div.text{
-    border: 2px dashed blue;
     flex: 1 1 500px;
 }
 article > div.media{
-    border: 2px dashed red;
     flex: 1 0 400px;
 }
 
